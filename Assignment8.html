@@ -16,11 +16,11 @@
             <div class="inside-info-wrap">
                 <div>
                     <label for="f-n-input">First Name</label><br>
-                    <input type="text" pattern="a-zA-Z" id="f-n-input" placeholder="Enter your first name">
+                    <input type="text" pattern="a-zA-Z" id="f-n-input" placeholder="Enter your first name" required>
                 </div>
                 <div>
                     <label for="l-n-input">Last Name</label><br>
-                    <input type="text" pattern="a-zA-Z" id="l-n-input" placeholder="Enter your last name">
+                    <input type="text" pattern="a-zA-Z" id="l-n-input" placeholder="Enter your last name" required>
                 </div>
                 <div>
                     <label for="email-input">Email Address</label><br>
@@ -41,7 +41,7 @@
                         <option value="5">5</option>
                     </select>
                 </div>
-                <div>
+                <div class="unavailable">
                     <label for="prac-input">Select Practitioner</label><br>
                     <select name="prac-input" id="prac-input">
                         <option value="0" selected disabled hidden>Select Pratitioner</option>
@@ -52,11 +52,11 @@
                         <option value="5">5</option>
                     </select>
                 </div>
-                <div>
+                <div class="unavailable">
                     <label for="date-input">Select Date</label><br>
                     <input type="date" id="date-input">
                 </div>
-                <div>
+                <div class="unavailable">
                     <label for="time-input">Select Time</label><br>
                     <input type="time" id="time-input">
                 </div>

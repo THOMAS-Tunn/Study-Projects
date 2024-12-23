@@ -75,3 +75,15 @@ select{
     border: 0px solid black;
     margin: 10px 8px;
 }
+.inside-info-wrap div input, select{
+    width: 100%;
+    box-sizing: border-box;
+}
+select{
+    font-size: 16px;
+    padding: 5px;
+}
+.unavailable select, .unavailable input{
+    color: rgba(0,0,0,.4);
+    background-color: rgba(70,70,70,.1);
+}
