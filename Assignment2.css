@@ -1,0 +1,86 @@
+a {
+  text-decoration: none;
+}
+hr {
+  border: transparent;
+}
+.Button {
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 5rem;
+}
+.Logo {
+  color: coral;
+  margin-left: 5rem;
+}
+.Logout {
+  color: red;
+  margin-left: 100rem;
+}
+.NavList {
+  list-style-type: none;
+  margin-top: 4.5rem;
+  margin-left: 800px;
+  padding: 0;
+  position: absolute;
+  font-size: 40px;
+}
+.NavItems {
+  padding: 1rem;
+  float: left;
+}
+
+.NavList a {
+  color: black;
+}
+.Menu {
+  position: absolute;
+  margin-top: 3rem;
+  list-style-type: none;
+  font-size: 2rem;
+}
+.Secondary {
+  right: 10rem;
+}
+article.MainMenu {
+  background-color: green;
+  height: 42rem;
+  width: 30rem;
+  display: inline-block;
+  margin-left: 10px;
+  position: absolute;
+  margin-top: 0;
+  z-index: 3;
+}
+aside.SecondaryMenu {
+  background-color: purple;
+  height: 42rem;
+  width: 30rem;
+  display: inline-block;
+  margin-left: calc(56rem + 30rem + 30px);
+  position: absolute;
+}
+section.MainSection {
+  background-color: whitesmoke;
+  height: 42rem;
+  width: 56rem;
+  margin-left: calc(30rem + 20px);
+  overflow: hidden;
+  position: absolute;
+  float: left;
+}
+h1.MainText {
+  font-size: 50px;
+  margin-left: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+footer.CopyRight {
+  background-color: blue;
+  height: 10rem;
+  width: 1900px;
+  position: absolute;
+  margin-top: calc(10px + 42rem);
+}

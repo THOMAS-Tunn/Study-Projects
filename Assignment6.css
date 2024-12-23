@@ -1,0 +1,152 @@
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+}
+a{text-decoration: none;color:black}
+
+/* header */
+.header{
+    height: 15%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.main-nav{
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    border: 5px solid transparent;
+}
+.nav-item:hover{border-color:black}
+.button{
+    font-size: 35px;
+    margin: 20px;
+}
+.logo{color:red; border: 5px solid transparent;}
+.logout{color:coral; border: 5px solid transparent;}
+.logo:hover{border-color:black;}
+.logout:hover{border-color:black;}
+
+/* main */
+.main-container{
+    height: calc(100% - 15% - 10%);
+    width: 100%;
+    background-color: bisque;
+    box-sizing: border-box;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    display: flex;
+    overflow: hidden;
+}
+/* menu container share */
+.menu-container{
+    height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* article*/
+.main-menu-container-open{
+    background-color: green;
+    border-right: 10px solid black;
+    overflow-y: scroll;
+    width: 256px;
+    position: relative;
+}
+.main-menu-heading{
+    margin: 0;
+    padding: 15px;
+    padding-left: 20px;
+    background-color: green;
+    position: sticky;
+    top:0;
+    left:0;
+    border-bottom:10px solid black ;
+}
+.menu{
+    list-style-type: none;
+    padding: 0;
+}
+.menu-items{
+    border-bottom: 10px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+/* main menu close */
+.main-menu-container-close {
+    background-color: green;
+    border-right: 10px solid black;
+    overflow-y: scroll;
+    position: relative;
+    width: 100px;
+}
+.main-menu-container-close .main-menu-responsible-item{
+    display: none;
+}
+/* section */
+.main-content-holder{
+    height: 100%;
+    background-color: aliceblue;
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+/* aside */
+.secondary-menu-container-open{
+    border-left: 10px solid black;
+    background-color: purple;
+    overflow-y: scroll;
+    position: relative;
+}
+.second-menu-heading{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    border-bottom:10px solid black ;
+    position: sticky;
+    top:0;
+    left:0;
+    background-color: purple;
+    width: 256px;
+}
+.secondary-menu-responsible-item{
+    padding-right: 10px;
+}
+/* secondary menu close */
+.secondary-menu-container-close{
+    border-left: 10px solid black;
+    width: 100px;
+    background-color: purple;
+    overflow-y: scroll;
+    position: relative;
+}
+.secondary-menu-container-close .secondary-menu-responsible-item{
+    display: none;
+}
+
+
+/* footer */
+.footer-container{
+    height:10%;
+    background-color: blue;
+    position: relative;
+}
+.footer-info{
+    margin: 0;
+    top:50%;
+    left:50%;
+    translate:-50% -50%;
+    position: absolute;
+}

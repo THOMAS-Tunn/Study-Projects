@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assignment8.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+    <section class="main-part">
+        <div class="calend-holder"><i class="fa-regular fa-calendar-check"></i></div>
+        <h1>Request an Appointment</h1>
+        <p>Fill in your details to book an appointment with jimmy Healthcare</p>
+        <form action="#">
+            <div class="inside-info-wrap">
+                <div>
+                    <label for="f-n-input">First Name</label><br>
+                    <input type="text" pattern="a-zA-Z" id="f-n-input" placeholder="Enter your first name">
+                </div>
+                <div>
+                    <label for="l-n-input">Last Name</label><br>
+                    <input type="text" pattern="a-zA-Z" id="l-n-input" placeholder="Enter your last name">
+                </div>
+                <div>
+                    <label for="email-input">Email Address</label><br>
+                    <input type="email" id="email-input" placeholder="Enter your email address">
+                </div>
+                <div>
+                    <label for="phone-input">Phone Number</label><br>
+                    <input type="tel" id="phone-input" placeholder="Enter your phone Number">
+                </div>
+                <div>
+                    <label for="ser-input">Select Service</label><br>
+                    <select name="ser-input" id="ser-input">
+                        <option value="0" selected disabled hidden>Select service</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="prac-input">Select Practitioner</label><br>
+                    <select name="prac-input" id="prac-input">
+                        <option value="0" selected disabled hidden>Select Pratitioner</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="date-input">Select Date</label><br>
+                    <input type="date" id="date-input">
+                </div>
+                <div>
+                    <label for="time-input">Select Time</label><br>
+                    <input type="time" id="time-input">
+                </div>
+            </div>
+            <button class="sub-btn">Request Appointment</button>
+        </form>
+    </section>
+</body>
+</html>
