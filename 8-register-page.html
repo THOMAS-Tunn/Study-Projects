@@ -16,11 +16,11 @@
             <div class="inside-info-wrap">
                 <div>
                     <label for="f-n-input">First Name</label><br>
-                    <input type="text" pattern="a-zA-Z" id="f-n-input" placeholder="Enter your first name" required>
+                    <input type="text" id="f-n-input" placeholder="Enter your first name" required>
                 </div>
                 <div>
                     <label for="l-n-input">Last Name</label><br>
-                    <input type="text" pattern="a-zA-Z" id="l-n-input" placeholder="Enter your last name" required>
+                    <input type="text" id="l-n-input" placeholder="Enter your last name" required>
                 </div>
                 <div>
                     <label for="email-input">Email Address</label><br>
@@ -30,7 +30,7 @@
                     <label for="phone-input">Phone Number</label><br>
                     <input type="tel" id="phone-input" placeholder="Enter your phone Number">
                 </div>
-                <div>
+                <div class="ser-input-wrap">
                     <label for="ser-input">Select Service</label><br>
                     <select name="ser-input" id="ser-input">
                         <option value="0" selected disabled hidden>Select service</option>
@@ -41,7 +41,7 @@
                         <option value="5">5</option>
                     </select>
                 </div>
-                <div class="unavailable">
+                <div class="prac-input-wrap">
                     <label for="prac-input">Select Practitioner</label><br>
                     <select name="prac-input" id="prac-input">
                         <option value="0" selected disabled hidden>Select Pratitioner</option>
@@ -52,18 +52,17 @@
                         <option value="5">5</option>
                     </select>
                 </div>
-                <div class="unavailable">
+                <div class="date-input-wrap">
                     <label for="date-input">Select Date</label><br>
-                    <input type="date" id="date-input">
+                    <input type="date" id="date-input" required>
                 </div>
-                <div class="unavailable">
+                <div class="time-input-wrap">
                     <label for="time-input">Select Time</label><br>
-                    <input type="time" id="time-input">
+                    <input type="time" id="time-input" required>
                 </div>
             </div>
             <button class="sub-btn">Request Appointment</button>
         </form>
     </section>
-    <!-- Hello there this for double check!! -->
 </body>
 </html>
